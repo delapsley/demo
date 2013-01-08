@@ -6,11 +6,11 @@ to visualize a 16 Gbps VLBI demonstration given in June 2011.
 
 The software consists of two components:
 
-    * monitor: a django-based application that uses google visualization
+  * __monitor:__ a django-based application that uses google visualization
     API and jQuery to visualize the interface statistics for a Data
     Acquisition System.
 
-    * server: a simple python XML RPC server that retrieved data from the Data
-      Acquisition System via an XML API and then published it via XML RPC.
+  * __server:__ a simple python XML RPC server that retrieved data from the Data
+    Acquisition System via an XML API and then published it via XML RPC.
 
 The software was written in about half a day.
