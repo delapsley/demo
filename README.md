@@ -1,6 +1,8 @@
 VDAS Demonstration Software
 ===========================
 
+## Overview
+
 This software was used to implement a simple monitoring application
 to visualize a 16 Gbps VLBI demonstration given in June 2011.
 
@@ -14,3 +16,9 @@ The software consists of two components:
     Acquisition System via an XML API and then published it via XML RPC.
 
 The software was written in about half a day.
+
+## Architecture
+
+The figure below gives a high level view of the system.
+
+![alt text][architecture.png]

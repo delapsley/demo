@@ -189,7 +189,7 @@ class FakeData(object):
 
         xml_body = [FakeData.FAKE_START_TAG]
         xml_body.append(FakeData.FAKE_HEADER.substitute({'num_interfaces':
-                                                         self.num_interfaces})
+                                                         self.num_interfaces}))
 
         for i in xrange(self.num_interfaces):
             xml_body.append(FakeData.FAKE_BODY.substitute(self.interfaces[i]))

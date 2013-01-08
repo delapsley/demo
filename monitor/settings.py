@@ -2,7 +2,7 @@
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-PROJECT_ROOT = '/Users/dlapsley/Desktop/jobsync/monitor'
+PROJECT_ROOT = '/Users/dlapsley/Desktop/jobsync/demo/monitor'
 
 ADMINS = (
     ('Dave Lapsley', 'delapsley@gmail.com'),
