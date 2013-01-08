@@ -21,4 +21,4 @@ The software was written in about half a day.
 
 The figure below gives a high level view of the system.
 
-![alt text](https://https://raw.github.com/delapsley/demo/master/architecture.png "Architecture")
+![Architecture](https://raw.github.com/delapsley/demo/master/architecture.png)
