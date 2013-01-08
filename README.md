@@ -21,4 +21,15 @@ The software was written in about half a day.
 
 The figure below gives a high level view of the system.
 
+The __main__ django view renders a template which includes javascript that
+loads google viz components. These components then pull data from the __stats__
+view via a (minimal) RESTful API.
+
+The __stats__ view in turn uses XML RPC with calls to functions
+*interface()*, *ethernet()*, and *capture()* to pull data from the
+__StatsServer__.
+
+The __StatsServer__ pulls data from the 16 Gbps Data Acquisition System using
+XML over TCP.
+
 ![Architecture](https://raw.github.com/delapsley/demo/master/architecture.png)
