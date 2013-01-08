@@ -1,0 +1,56 @@
+<html>
+   <head>
+
+      <link type="text/css" href="/media/css/styleshome.css" rel="Stylesheet" />	
+      <link type="text/css" href="/media/css/cupertino/jquery-ui-1.8.12.custom.css" rel="Stylesheet" />	
+
+      <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+      <script type="text/javascript">
+         google.load("jquery", "1.6");
+         google.load('visualization', '1', {packages:['table', 'gauge', 'corechart']});
+     </script>
+     <script type="text/javascript" src="/media/js/jquery-ui-1.8.12.custom.min.js"></script>
+     <script src="/media/js/main/main.js" type="text/javascript" ></script>
+   </head>
+
+   <body>
+         <img src="/media/images/logo.gif" height="60px"/>
+         <img src="/media/images/x3c-text.png" height="60px"/>
+
+         <br></br>
+
+         <table align="center" width="800px">
+	    <thead align="center">
+	       <tr>
+	       <th align="center" style="text-align:center">Interface Rates(Gbps)</th>
+	       </tr>
+	    </thead>
+	    <tbody>
+	       <tr><td>
+               <div id="capture_div" style="float: left;"></div>
+               <div id="ethernet_div"></div>
+               <div style="clear: both;"></div>
+	       </td></tr>
+	    </tbody>
+	 </table>
+
+       <div id="stats_div"></div>
+
+       <br></br>
+       
+        <table>
+	    <thead>
+	       <tr>
+	       <th align="center" style="text-align:center">Statistics Summary</th>
+	       </tr>
+	    </thead>
+	    <tbody>
+	       <tr><td>
+	       <div id="stats_table_div"></div>
+	       </td></tr>
+	    </tbody>
+	 </table>
+
+ </body>
+</html>
+	 
